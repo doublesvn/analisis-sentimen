@@ -1,0 +1,10 @@
+streamlit 
+emoji
+nltk
+pandas
+re
+string
+Sastrawi
+pickle
+numpy 
+scikit-learn
