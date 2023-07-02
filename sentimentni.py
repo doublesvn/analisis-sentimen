@@ -6,8 +6,8 @@ import re,string
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from mpstemmer.mpstemmer import MPStemmer
 from nltk.tokenize import word_tokenize
-# nltk.download('stopwords')
-# nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('punkt')
 from nltk.corpus import stopwords
 import pickle
 import numpy as np
