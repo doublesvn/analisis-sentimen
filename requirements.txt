@@ -3,6 +3,6 @@ emoji
 nltk
 pandas
 Sastrawi
-pickle
 numpy 
 scikit-learn
+Levenshtein
