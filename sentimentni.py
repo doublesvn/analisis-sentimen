@@ -121,7 +121,7 @@ def classification(text):
         kelas = "positif"
     else:
         kelas = "error"
-    return hasilprepro, kelas
+    return kelas
 
 st.write("""
 # ANALISI SENTIMEN
@@ -132,6 +132,5 @@ text_input = st.sidebar.text_input("Masukkan Teks", "")
 
 st.write("Teks Yang diinputkan : ", text_input)
 if text_input != "":
-    hasilprepro, kelas = classification(text_input)
-    st.write("Data hasil preprocessing : ", hasilprepro)
+    kelas = classification(text_input)
     st.write("Prediksi Kelas : ", kelas)
