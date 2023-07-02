@@ -124,7 +124,7 @@ def classification(text):
     return kelas
 
 st.write("""
-# ANALISI SENTIMEN
+# WEB DEMO ANALISIS SENTIMEN NAIVE BAYES
 """)
 st.sidebar.header('Coba Klasifikasi')
 
